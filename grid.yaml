@@ -3,7 +3,7 @@ services:
   hub:
     image: selenium/hub:4.16
   chrome:
-    image: selenium/node-chromium:4.16
+    image: selenium/node-chrome:4.16
     shm_size: '2g'
     depends_on:
     - hub
