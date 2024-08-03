@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except these files
+!.env
+!grid.yaml
+!test-suites.yaml
+!Jenkinsfile
+
+# Allow directories to be tracked
+!.gitignore
